@@ -1,0 +1,197 @@
+/* seleciona todo o html */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/** Bootstrap logo */
+
+.navbar-brand {
+    font-size: 23px;
+}
+
+
+/**/
+
+
+/* div cuja classe é box */
+
+.box {
+    position: relative;
+    top: 30px;
+}
+
+
+/* tag section cuja classe é banner */
+
+section.banner {
+    min-height: 400px;
+    background-image: url('../images/bg.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 210px 0;
+    position: relative;
+}
+
+section.banner>.container {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* div cuja classe é overlay */
+
+div.overlay {
+    z-index: 1;
+    width: 100%;
+    left: 100%;
+    top: 0;
+    position: absolute;
+    background-color: rgba(15, 15, 15, 0.76);
+}
+
+
+/* div cuja classe é chamada-banner */
+
+.chamada-banner h2 {
+    color: #2e00fd;
+    font-size: 50px;
+}
+
+.chamada-banner p {
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+
+
+/* section class="cadastro-lead" */
+
+section.cadastro-lead {
+    background: #2e00fd;
+    padding: 20px 0;
+}
+
+
+/* section class="cadastro-lead" h2 */
+
+section.cadastro-lead h2 {
+    color: white;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+
+/* section class="cadastro-lead" form*/
+
+section.cadastro-lead form {
+    position: relative;
+    top: 10px;
+}
+
+
+/* section class="cadastro-lead" input['text'] */
+
+section.cadastro-lead input[type=text] {
+    width: 85%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+}
+
+
+/* section class="cadastro-lead" input['submit'] */
+
+section.cadastro-lead input[type=submit] {
+    width: 15%;
+    height: 40px;
+    border: 1px solid rgb(20, 129, 20);
+    background: rgb(20, 129, 20);
+    color: white;
+}
+
+
+/* section class="depoimento"*/
+
+section.depoimento {
+    padding: 40px 0;
+}
+
+
+/* section class="depoimento" h2*/
+
+section.depoimento h2 {
+    color: #4b4b4b;
+}
+
+
+/* section class="depoimento" P */
+
+section.depoimento p {
+    color: #4b4b4b;
+    font-size: 17px;
+}
+
+
+/* section class="diferenciais"*/
+
+section.diferenciais {
+    padding: 20px 0;
+    background: rgb(238, 238, 238);
+}
+
+
+/* section class="diferenciais-container" */
+
+.diferenciais-container {
+    margin-top: 30px;
+}
+
+
+/* section class="diferenciais-container" */
+
+.diferenciais-container h3 {
+    color: #2e00fd;
+}
+
+section.equipe {
+    background: #2e00fd;
+    color: #fff;
+}
+
+section.equipe h2 {
+    margin: 0;
+    background: #2e00fd;
+    color: white;
+    text-align: center;
+    padding: 10px 5%;
+}
+
+.equipe-container {
+    padding: 30px 0;
+}
+
+.equipe-single {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 20px 10px;
+    border: 1px solid black;
+    box-shadow: 8px 7px 5px -3px rgba(20, 20, 20, 0.6);
+}
+
+.user-picture {
+    width: 100%;
+    padding-top: 100%;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1024) {
+    section.cadastro-lead form {
+        position: relative;
+        top: 0px;
+    }
+}

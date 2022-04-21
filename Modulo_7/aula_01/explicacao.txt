@@ -1,0 +1,16 @@
+Orientação a objetos ou OOP
+
+$define();
+$variavel;
+FUNC();
+
+Pessoa{
+    //atributos.
+        nome
+        idade
+        peso
+
+    //métodos
+        crescer(){}
+        comer(){}
+}

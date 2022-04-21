@@ -1,0 +1,28 @@
+Objetivo: Formulario de cadastro.
+
+Usuário enviou formulario
+
+{
+    1 - email está correto:?
+        se ESTIVER
+        {
+            nome está correto?
+            se ESTIVER
+            {
+                cpf está correto?
+                se ESTIVER
+                {
+                    realizar cadastro
+                }se NÃO
+                {
+                    Apareça mensagem dizendo que está errado!
+                }
+            }se NÃO
+            {
+                Apareça mensagem dizendo que está errado!
+            }
+        }se NÃO
+        {
+            Apareça mensagem dizendo que está errado!
+        }
+}
