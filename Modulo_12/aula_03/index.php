@@ -6,7 +6,6 @@
   * precisar usar estará aqui... 0_-  20/04/22
 */
 
-/*
 use FlyingLuscas\Correios\Client;
 
 require 'vendor/autoload.php';
@@ -15,23 +14,6 @@ $correios = new Client;
 
 $correios->zipcode()
     ->find('01001-000');
-
-
-
-Resultado:
-
-[
-    'zipcode' => '01001-000',
-    'street' => 'Praça da Sé',
-    'complement' => [
-        'lado ímpar',
-    ],
-    'district' => 'Sé',
-    'city' => 'São Paulo',
-    'uf' => 'SP',
-]
-*/
-
 
 
 ?>
